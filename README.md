@@ -1,26 +1,31 @@
-# xhub_signature
+# xhub-signature
 
-Petit utilitaire pour générer un hash 'sha256' comme celui du header 'X-Hub-Signature-256' des webhooks de Github
+Utilitaire de signature de payload.  
 
-## Project setup
+Github signe ses webhooks avec l'algorithme 'sha256'.  
+
+Pour pouvoir réaliser des tests ou déclencher un webhook manuellement, il est donc intéressant de pouvoir simuler ce mécanisme de signature, ce que propose xhub-signature, sous forme de GUI.
+
+## Installation
+
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+## Compile avec hot-reloads pour le développement
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+### Compile et minifie pour la production
 ```
 npm run build
 ```
 
-### Lints and fixes files
+### Linter
 ```
 npm run lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Configurations Vue-CLI
+Voir [la documentation](https://cli.vuejs.org/config/).
