@@ -8,6 +8,8 @@ Pour pouvoir réaliser des tests ou déclencher un webhook manuellement, il est 
 
 [Github fournit une documentation](https://docs.github.com/en/developers/webhooks-and-events/webhook-events-and-payloads) sur les différents events possibles et leur payloads.
 
+Vous pouvez tester directement l'[application déployée sur Netlify](https://xhub-signature.netlify.app/).
+
 ## Installation
 
 ```
